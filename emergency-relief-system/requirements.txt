@@ -1,0 +1,17 @@
+Flask==3.0.3
+Flask-SQLAlchemy==3.1.1
+Flask-JWT-Extended==4.6.0
+SQLAlchemy==2.0.36
+PyMySQL==1.1.1
+cryptography==43.0.3
+Werkzeug==3.0.4
+python-dotenv==1.0.1
+pandas==2.2.3
+numpy==2.1.2
+scikit-learn==1.5.2
+joblib==1.4.2
+requests==2.32.3
+plotly==5.24.1
+streamlit==1.39.0
+gunicorn==23.0.0
+pytest==8.3.3

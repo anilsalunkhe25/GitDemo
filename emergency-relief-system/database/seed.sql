@@ -1,0 +1,2 @@
+-- Demo data is generated idempotently by the Python seed script.
+-- Run from emergency-relief-system: python -m backend.seed

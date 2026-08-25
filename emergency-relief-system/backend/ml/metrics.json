@@ -1,0 +1,40 @@
+{
+  "trained_at": "2026-08-25 17:14:33",
+  "dataset_rows": 800,
+  "features": [
+    "population_affected",
+    "emergency_duration",
+    "emergency_severity_encoded",
+    "resource_type_encoded",
+    "daily_consumption",
+    "days_since_emergency",
+    "previous_demand"
+  ],
+  "target": "future_requirement",
+  "best_model": "RandomForestRegressor",
+  "selection_criterion": "highest R\u00b2 on held-out test split (20%)",
+  "results": {
+    "LinearRegression": {
+      "model": "LinearRegression",
+      "MAE": 85558.36,
+      "RMSE": 131519.89,
+      "R2": 0.712,
+      "train_seconds": 0.02
+    },
+    "RandomForestRegressor": {
+      "model": "RandomForestRegressor",
+      "MAE": 27084.28,
+      "RMSE": 92917.13,
+      "R2": 0.8563,
+      "train_seconds": 0.53
+    },
+    "GradientBoostingRegressor": {
+      "model": "GradientBoostingRegressor",
+      "MAE": 31591.13,
+      "RMSE": 107296.68,
+      "R2": 0.8083,
+      "train_seconds": 0.32
+    }
+  },
+  "responsible_ai_note": "Metrics are measured on synthetic demo data and describe this dataset only; forecasts are recommendations requiring human review."
+}
